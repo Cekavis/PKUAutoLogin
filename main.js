@@ -2,7 +2,7 @@
 // @name         PKU auto login
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Automatically log in to IAAA, portal and course.
 // @author       You
 // @match        https://portal.pku.edu.cn/portal2017/
 // @match        https://iaaa.pku.edu.cn/*
@@ -10,6 +10,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pku.edu.cn
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 /* globals jQuery, $, waitForKeyElements */
 
